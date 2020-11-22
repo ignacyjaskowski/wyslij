@@ -15,12 +15,12 @@ input.onPinPressed(TouchPin.P2, function () {
     basic.showNumber(0)
 })
 input.onButtonPressed(Button.B, function () {
-    radio.sendString("fajf")
+    radio.sendNumber(3)
     n = n - 1
     basic.showNumber(n)
 })
 input.onPinPressed(TouchPin.P1, function () {
-    radio.sendString("fajffajf")
+    radio.sendNumber(4)
     a = a + 1
     basic.showNumber(a)
 })
